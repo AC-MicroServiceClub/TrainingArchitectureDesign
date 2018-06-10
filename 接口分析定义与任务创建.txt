@@ -1,0 +1,27 @@
+接口定义：
+Authentication
+getUserInfoByEid(string eid)
+getTrainingList()
+getTrainingInfoById(int id)
+downloadVideo()
+downloadDocument()
+
+任务：
+1- 学生登陆
+	1）编写登陆页面（前端）
+	2）集成ESO
+2- 我的历史课程列表
+	1）获取历史课程数据（后端接口）
+	2）编写历史课程显示页面（前端）
+	3）编写filter，可以根据课程状态，报名状态，课程title等过滤数据（前端）
+	4）编写分页功能（前端）
+3- 查看课程详情
+	1）获取课程详细数据（后端接口，或者前端获取——前提是详细数据已经由“获取历史课程数据” 接口取出）
+	2）编写课程详情页面（前端）
+	3）在线观看录像
+	4）在线阅览资料
+	5）资料下载
+
+	
+	
+	
